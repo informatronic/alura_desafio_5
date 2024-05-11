@@ -5,7 +5,7 @@ import textwrap
 from markdown import markdown
 import pyperclip
 
-genai.configure(api_key="AIzaSyAkP_gFyKpF4XD_1DNbixc1bTe-b8voANo")  # Substitua 'SUA_API_KEY' pela sua chave da API
+genai.configure(api_key="SUA_API_KEY")  # Substitua 'SUA_API_KEY' pela sua chave da API
 model = genai.GenerativeModel('gemini-pro')
 
 def to_markdown(text):
